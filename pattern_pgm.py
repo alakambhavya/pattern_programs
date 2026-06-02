@@ -131,3 +131,12 @@ for row in range(7):
 			print(" ",end=" ")
 	print()
 
+print("______________________________")
+
+for row in range(8):
+	for col in range(7):
+		if col==0 or col>=1 and col<=4 and row==0 or col>=1 and col<=4 and row==7 or row==1 and col==5 or row==6 and col==5 or row>=2 and row<=5 and col==6 :
+			print("*",end=" ")
+		else:
+			print(" ",end=" ")	
+	print()
