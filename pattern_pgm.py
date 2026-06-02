@@ -151,3 +151,12 @@ for row in range(7):
 	print()
 
 print("_________________________________________")
+
+for row in range(7):
+	for col in range(6):
+		if col>=1 and col<=3 and row==0 or  col>=1 and col<=3 and row==4 or row>=1 and row<=3 and col==0 or col>=2 and col<=5 and row==2 or row>=3 and row<=6 and col==5 :
+			print("*",end=" ")
+		else:
+			print(" ",end=" ")	
+	print()
+
