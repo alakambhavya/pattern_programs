@@ -372,6 +372,16 @@ for row in range(5):
 			print(" ",end=" ")
 	print()
 
+print("________________________________")
+
+for row in range(9):
+	for col in range(15):
+		if col==0 or col>=0 and col<=4 and row==0 or col>=0 and col<=4 and row==4 or col>=0 and col<=4 and row==8 or row>=1 and row<=3 and col==5 or row>=5 and row<=7 and col==5 or row==3 and  col==6 or  row==4 and  col==7 or row==5 and  col==8 or row==6 and  col==9 or row==7 and  col==10 or row==6 and  col==11 or row==5 and  col==12 or row==4 and col==13 or row==3 and col==14 :
+			print("*",end=" ")
+		else:
+			print(" ",end=" ")
+	print() 
+
 
 
 
