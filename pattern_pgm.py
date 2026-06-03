@@ -21,7 +21,7 @@ for row in range(5):
 		print("*",end=" ")
 	print()
 
-print("\n________4.Left angle traingle________\n")
+print("\n________4. right angle traingle________\n")
 
 for row in range(1,5):
 	print(" "*(5-row),"*" * row)
