@@ -1,29 +1,32 @@
+print("\n_________________________________________SHAPES_________________________________________________________\n")
+
+print("\n______1.Square_____\n")
+
 for row in range(4):
 	for coloumns in range(4):
 		print("*",end=" ")
 	print()
 
-print("_________________________")
+print("\n______2.Rectangle______\n ")
 
 for row in range(6):
 	for coloumns in range(8):
 		print("*",end=" ")
 	print()
 
-print("________________________")
+print("\n________3.Right angle traingle_______\n")
 
 for row in range(5):
 	for coloumns in range(row+1):
 		print("*",end=" ")
 	print()
 
-print("__________________________")
-
+print("\n________4.Left angle traingle________\n")
 
 for row in range(1,5):
 	print(" "*(5-row),"*" * row)
 
-print("_________________________")
+print("\n_______5.Empty rectangle_________\n ")
 
 for row in range(5):
 	for col in range(7):
@@ -32,7 +35,8 @@ for row in range(5):
 		else:
 			print(" ",end=" ")
 	print()
-print("___________________________")
+
+print("\n_____6.Empty square________\n")
 
 for row in range(4):
 	for col in range(4):
@@ -42,8 +46,7 @@ for row in range(4):
 			print(" ",end=" ")
 	print()
 
-print("_______________________________")
-
+print("\n______7.Square inside daignol_________\n")
 
 for row in range(5):
 	for col in range(5):
@@ -51,10 +54,10 @@ for row in range(5):
 			print("*",end=" ")
 		else:
 			print(" ",end=" ")
-
 	print()
 
-print("______________________________")
+print("\n_______8.Traingle_________\n")
+
 for row in range(5):
 	for col in range(9):
 		if row==4 or col+row==4 or col-row==4:
@@ -63,7 +66,7 @@ for row in range(5):
 			print(" ",end=" ")
 	print()
 
-print("__________________________________")
+print("\n________9.Rhombus______\n")
 
 for row in range(7):
 	for col in range(7):
@@ -74,7 +77,7 @@ for row in range(7):
 	
 	print()
 
-print("____________________________________")
+print("\n______10.House______\n")
 
 for row in range(13):
 	for col in range(11):
@@ -84,14 +87,17 @@ for row in range(13):
 			print(" ",end=" ")
 	print()
 
-print("_____________________________")
+print("\n_________11.Square_______\n")
 
 for row in range(9):
 	for col in range(9):
 		print("*",end=" ")
 	print()
 
-print("______________________________________")
+
+print("\n_________________________________________ALPHABETS________________________________________________\n")
+
+print("\n___________1.A__________\n")
 
 for row in range(8):
 	for col in range(15):
@@ -101,7 +107,7 @@ for row in range(8):
 			print(" ",end=" ")
 	print()
 
-print("_________________________________________")
+print("\n___________2.B____________\n")
 
 for row in range(7):
 	for col in range(5):
@@ -111,7 +117,7 @@ for row in range(7):
 			print(" ",end=" ")
 	print()
 
-print("____________________________")
+print("\n_____________3.C__________\n")
 
 for row in range(7):
 	for col in range(5):
@@ -121,7 +127,7 @@ for row in range(7):
 			print(" ",end=" ")
 	print()
 
-print("______________________________")
+print("\n_________4.D____________\n ")
 
 for row in range(8):
 	for col in range(7):
@@ -130,7 +136,7 @@ for row in range(8):
 		else:
 			print(" ",end=" ")	
 	print()
-print("__________________________________")
+print("\n________5.E__________\n")
 
 for row in range(7):
 	for col in range(5):
@@ -140,28 +146,7 @@ for row in range(7):
 			print(" ",end=" ")	
 	print()
 
-print("_________________________________________")
-
-for row in range(7):
-	for col in range(6):
-		if col>=1 and col<=3 and row==0 or  col>=1 and col<=3 and row==4 or row>=1 and row<=3 and col==0 or col>=2 and col<=5 and row==2 or row>=3 and row<=6 and col==5 :
-			print("*",end=" ")
-		else:
-			print(" ",end=" ")	
-	print()
-
-print("___________________________________")
-
-for row in range(7):
-	for col in range(4):
-		if col==0 or col==3 or row==3 :
-			print("*",end=" ")
-		else:
-			print(" ",end=" ")	
-	print()
-
-print("______________________________")
-
+print("\n________6.F______________\n")
 for row in range(6):
 	for col in range(5):
 		if col==0 or row==0 or row==3:
@@ -170,9 +155,8 @@ for row in range(6):
 			print(" ",end=" ")	
 	print()
 
-print("______________________")
 
-
+print("\n_________7.G__________\n")
 for row in range(7):
 	for col in range(6):
 		if col>=1 and col<=3 and row==0 or  col>=1 and col<=3 and row==4 or row>=1 and row<=3 and col==0 or col>=2 and col<=5 and row==2 or row>=3 and row<=6 and col==5 :
@@ -181,9 +165,7 @@ for row in range(7):
 			print(" ",end=" ")	
 	print()
 
-print("_____________________________")
-
-           
+print("\n_________8.H___________\n")
 for row in range(7):
 	for col in range(4):
 		if col==0 or col==3 or row==3 :
@@ -192,7 +174,8 @@ for row in range(7):
 			print(" ",end=" ")	
 	print()
 
-print("__________________________")
+
+print("\n_________9.I__________\n")
 
 for row in range(7):
 	for col in range(5):
@@ -202,7 +185,7 @@ for row in range(7):
 			print(" ",end=" ")	
 	print()
 
-print("__________________________")
+print("\n________10.J___________\n")
 
 for row in range(7):
 	for col in range(5):
@@ -212,7 +195,7 @@ for row in range(7):
 			print(" ",end=" ")	
 	print()
 
-print("__________________________")
+print("\n_________11.K___________\n")
 
 for row in range(7):
 	for col in range(5):
@@ -222,7 +205,7 @@ for row in range(7):
 			print(" ",end=" ")	
 	print()
 
-print("__________________________")
+print("\n_________12.L__________\n")
 
 for row in range(7):
 	for col in range(5):
@@ -232,7 +215,7 @@ for row in range(7):
 			print(" ",end=" ")	
 	print()
 
-print("__________________________")
+print("\n___________13.M__________\n")
 
 for row in range(6):
 	for col in range(5):
@@ -242,7 +225,7 @@ for row in range(6):
 			print(" ",end=" ")	
 	print()
 
-print("__________________________")
+print("\n___________14.N____________\n")
 
 for row in range(7):
 	for col in range(7):
@@ -252,7 +235,7 @@ for row in range(7):
 			print(" ",end=" ")	
 	print()
 
-print("______________________________")
+print("\n__________15.O____________\n")
 
 for row in range(6):
 	for col in range(6):
@@ -262,7 +245,7 @@ for row in range(6):
 			print(" ",end=" ")	
 	print()
 
-print("_______________________________")
+print("\n__________16.P_________\n")
 
 for row in range(8):
 	for col in range(5):
@@ -272,7 +255,7 @@ for row in range(8):
 			print(" ",end=" ")	
 	print()
 
-print("______________________________")
+print("\n____________17.Q__________\n")
 
 for row in range(7):
 	for col in range(7):
@@ -282,7 +265,7 @@ for row in range(7):
 			print(" ",end=" ")	
 	print()
 
-print("___________________________________")
+print("\n_____________18.R_______________\n")
 
 for row in range(8):
 	for col in range(5):
@@ -292,7 +275,7 @@ for row in range(8):
 			print(" ",end=" ")	
 	print()
 
-print("_____________________________________")
+print("\n____________19.S________________\n")
 
 for row in range(9):
 	for col in range(5):
@@ -302,7 +285,7 @@ for row in range(9):
 			print(" ",end=" ")	
 	print()
 
-print("_________________________________________")
+print("\n__________20.T______________\n")
  
 for row in range(5):
 	for col in range(7):
@@ -312,7 +295,7 @@ for row in range(5):
 			print(" ",end=" ")	
 	print()
 
-print("_________________________________________")
+print("\n___________21.U_________________\n")
  
 for row in range(6):
 	for col in range(5):
@@ -322,7 +305,7 @@ for row in range(6):
 			print(" ",end=" ")	
 	print()
 
-print("___________________________")
+print("\n_____________22.V______________\n")
 
 for row in range(4):
 	for col in range(7):
@@ -332,7 +315,7 @@ for row in range(4):
 			print(" ",end=" ")
 	print()
 
-print("____________________")
+print("\n_________23.W___________\n")
 
 for row in range(6):
 	for col in range(5):
@@ -342,7 +325,7 @@ for row in range(6):
 			print(" ",end=" ")
 	print()
 
-print("____________________________________")
+print("\n___________24.X______________\n")
 
 for row in range(5):
 	for col in range(5):
@@ -352,7 +335,7 @@ for row in range(5):
 			print(" ",end=" ")
 	print()
 
-print("____________________________________")
+print("\n__________25.Y______________\n")
 
 for row in range(5):
 	for col in range(5):
@@ -362,7 +345,7 @@ for row in range(5):
 			print(" ",end=" ")
 	print()
 
-print("____________________________________")
+print("\n____________26.Z_____________\n")
 
 for row in range(5):
 	for col in range(5):
@@ -372,7 +355,7 @@ for row in range(5):
 			print(" ",end=" ")
 	print()
 
-print("________________________________")
+print("\n_______________27.BV_________________\n")
 
 for row in range(9):
 	for col in range(15):
